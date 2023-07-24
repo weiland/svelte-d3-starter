@@ -3,7 +3,6 @@
 	"version": "3.0.0",
 	"private": true,
 	"description": "Svelte D3 Starter Kit.",
-	"main": "index.js",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
