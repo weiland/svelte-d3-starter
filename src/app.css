@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.skip-to-main:not(:focus) {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	width: 1px;
+	height: 1px;
+	white-space: nowrap;
+}
+
+.skip-to-main:focus-visible {
+	position: absolute;
+	background: grey;
+	color: white;
+	text-decoration: none;
+	top: 1rem;
+	left: 1rem;
+	padding: 0.2rem 0.7rem;
+}
