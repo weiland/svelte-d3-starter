@@ -22,6 +22,20 @@ npm ci
 # but you can also feel free to use pnpm, yarn, bun or other.
 ```
 
+## More complex version using SvelteKit
+
+Checkout the
+[`sveltekit`](https://github.com/weiland/svelte-d3-starter/tree/sveltekit) branch.
+
+Or run
+
+```command
+npx degit weiland/svelte-d3-starter#sveltekit project-name
+
+# or via git clone
+git clone --depth=1 -b sveltekit https://github.com/weiland/svelte-d3-starter project-name
+```
+
 ## Uses
 
 - D3
